@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .country__span {
+    @apply font-mono font-semibold text-lg pr-2;
+  }
+}
